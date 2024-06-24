@@ -27,7 +27,7 @@ class LinkedList:
             result += str(element)
             result += ", "
 
-        return result + "]"
+        return result[:-2] + "]"
 
     def __iter__(self):
         current = self.head
